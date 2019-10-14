@@ -26,56 +26,52 @@ Pc git
 3.	Validar todas las páginas HTML creadas usando el W3C Validator
 Procederemos a validar cada una de las paginas creadas con el software W3C Validator, la cual nos indicara estándares y recomendaciones para el desarrollo de la web en caso de existir algún error.
 Pagina: index.html
+![4](https://user-images.githubusercontent.com/52549697/66732074-0adb0200-ee20-11e9-83f2-1e5c8779b706.JPG)
  
-              Página: iPhone11.html
+Página: iPhone11.html
+ ![5](https://user-images.githubusercontent.com/52549697/66732075-0adb0200-ee20-11e9-9162-fd4f0db8795c.JPG)
+
+ Página: SGalaxyS10.html
+ ![6](https://user-images.githubusercontent.com/52549697/66732076-0adb0200-ee20-11e9-974b-6b2bb76aa97a.JPG)
  
-
-
-              Página: SGalaxyS10.html
+Página: Rphone2.html
+![7](https://user-images.githubusercontent.com/52549697/66732077-0b739880-ee20-11e9-8ca7-715c47428f72.JPG)
  
-            Página: Rphone2.html
- 
+Página: HuaweiP30.html
+ ![8](https://user-images.githubusercontent.com/52549697/66732078-0c0c2f00-ee20-11e9-9f1e-95a1155276f4.JPG)
 
-
-
-
-
-
-
-
-            Página: HuaweiP30.html
- 
-
-            Página: Mi9T.html
+Página: Mi9T.html
+![9](https://user-images.githubusercontent.com/52549697/66732079-0c0c2f00-ee20-11e9-8a10-a5979d8c8591.JPG)
  
 4.	Luego, se debe crear el archivo README del repositorio de GitHub.
- 
+![10](https://user-images.githubusercontent.com/52549697/66732080-0c0c2f00-ee20-11e9-94ec-926d512aa120.JPG)
 
 
 
 5.	Resultados de la practica
 Creación de índex: Precederemos a crear la página índex
- 
- 
- 
- 
+ ![11](https://user-images.githubusercontent.com/52549697/66732081-0c0c2f00-ee20-11e9-9dcc-3542339eacfe.JPG)
+ ![12](https://user-images.githubusercontent.com/52549697/66732082-0ca4c580-ee20-11e9-9f48-b0c6e3bfccae.JPG)
+ ![13](https://user-images.githubusercontent.com/52549697/66732084-0ca4c580-ee20-11e9-9b33-cf8681db0c71.JPG)
+ ![14](https://user-images.githubusercontent.com/52549697/66732086-0ca4c580-ee20-11e9-85ef-f57d0283584f.JPG)
  
 Pagina
- 
+
+ ![15](https://user-images.githubusercontent.com/52549697/66732088-0d3d5c00-ee20-11e9-8dbd-0088f16015bf.JPG)
  
 Creación de Iphone11: Precederemos a crear la página Iphone11
+![16](https://user-images.githubusercontent.com/52549697/66732089-0d3d5c00-ee20-11e9-92e1-bab391de37ea.JPG)
+![17](https://user-images.githubusercontent.com/52549697/66732090-0d3d5c00-ee20-11e9-8859-c404a9d6a224.JPG)
+![18](https://user-images.githubusercontent.com/52549697/66732091-0dd5f280-ee20-11e9-8820-70ff933c46a0.JPG)
+![19](https://user-images.githubusercontent.com/52549697/66732092-0dd5f280-ee20-11e9-84bb-d283fde89f77.JPG)
+![20](https://user-images.githubusercontent.com/52549697/66732093-0dd5f280-ee20-11e9-8092-e6d1dfb6d8eb.JPG)
  
- 
- 
- 
- 
-
-
-
-
-
 Pagina
- 
+ ![21](https://user-images.githubusercontent.com/52549697/66732094-0dd5f280-ee20-11e9-82f2-a0c9e9ec62af.JPG)
+![22](https://user-images.githubusercontent.com/52549697/66732095-0e6e8900-ee20-11e9-9fb9-58b7bcb73594.JPG)
+![23](https://user-images.githubusercontent.com/52549697/66732096-0e6e8900-ee20-11e9-9f45-084bb22e3a1e.JPG)
+![24](https://user-images.githubusercontent.com/52549697/66732097-0e6e8900-ee20-11e9-8477-327d133e8948.JPG)
+
  
  
  
