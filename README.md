@@ -3,12 +3,12 @@ Practica01
 
  	                                               PRÁCTICA DE LABORATORIO 
 
-CARRERA: COMPUTACION	
+<pre>CARRERA: COMPUTACION	
 ASIGNATURA: HYPERMEDIAL
 NRO. PRÁCTICA:	1	
 TÍTULO PRÁCTICA: Creación de sitio web usando HTML5
 OBJETIVO ALCANZADO:
-El desarrollo de la práctica nos permitió entender y organizar de una mejor manera los sitios web, utilizando estándares actuales como es el caso de HTML5, y mediante la ayuda del libro guía de la materia de hypermedial pudimos desarrollar aplicaciones web interactivas y amigables al usuario.
+El desarrollo de la práctica nos permitió entender y organizar de una mejor manera los sitios web, utilizando estándares actuales como es el caso de HTML5, y mediante la ayuda del libro guía de la materia de hypermedial pudimos desarrollar aplicaciones web interactivas y amigables al usuario.</pre>
 
                                                     ACTIVIDADES DESARROLLADAS
 1.	Crear un repositorio en GitHub con el nombre “Practica01 – Mi Blog”
