@@ -72,91 +72,62 @@ Pagina
 ![23](https://user-images.githubusercontent.com/52549697/66732096-0e6e8900-ee20-11e9-9f45-084bb22e3a1e.JPG)
 ![24](https://user-images.githubusercontent.com/52549697/66732097-0e6e8900-ee20-11e9-8477-327d133e8948.JPG)
 
- 
- 
- 
- 
+
 Creación de Rphone2: Precederemos a crear la página Rphone2
+
+![1](https://user-images.githubusercontent.com/52549697/66732597-37901900-ee22-11e9-92c1-d8c9918f9c27.JPG)
+![2](https://user-images.githubusercontent.com/52549697/66732599-3828af80-ee22-11e9-9ac0-01a001030636.JPG)
+![3](https://user-images.githubusercontent.com/52549697/66732600-3828af80-ee22-11e9-9a43-d8acc8faea71.JPG)
  
- 
- 
-
-
-
-
 Pagina
- 
- 
 
-
+![4](https://user-images.githubusercontent.com/52549697/66732601-3828af80-ee22-11e9-9628-67fa5a8b921d.JPG)
+![5](https://user-images.githubusercontent.com/52549697/66732602-3828af80-ee22-11e9-968d-34dce3c3d64d.JPG)
 
 Creación de SGalaxyS10: Precederemos a crear la página SGalaxyS10
  
+![6](https://user-images.githubusercontent.com/52549697/66732603-38c14600-ee22-11e9-8c85-73d9e0e297f6.JPG)
+![7](https://user-images.githubusercontent.com/52549697/66732604-38c14600-ee22-11e9-97b6-b442f8072f88.JPG)
  
- 
-
-
-
+ -----------------------------falta-----------
 
 Pagina
- 
- 
 
-
+![9](https://user-images.githubusercontent.com/52549697/66732605-3959dc80-ee22-11e9-9a4d-ca9600264ad6.JPG)
+![10](https://user-images.githubusercontent.com/52549697/66732606-3959dc80-ee22-11e9-883d-01a6a2b8ea70.JPG)
+ 
 Creación de HuaweiP30: Precederemos a crear la página HuaweiP30
+
+![11](https://user-images.githubusercontent.com/52549697/66732607-39f27300-ee22-11e9-924a-f274996dac95.JPG)
+![12](https://user-images.githubusercontent.com/52549697/66732610-3a8b0980-ee22-11e9-9df3-14a9dcf272cb.JPG)
+![13](https://user-images.githubusercontent.com/52549697/66732611-3a8b0980-ee22-11e9-86d2-76a1d0869503.JPG)
  
- 
- 
-
-
-
-
 Pagina
+
+![14](https://user-images.githubusercontent.com/52549697/66732612-3a8b0980-ee22-11e9-8e3e-60fea0fd1e80.JPG)
+![15](https://user-images.githubusercontent.com/52549697/66732613-3a8b0980-ee22-11e9-872c-eb373335c855.JPG)
  
- 
-
-
-
-
-
-
-
 Creación de Mi9T: Precederemos a crear la página Mi9T
- 
- 
- 
 
-
-
-
-
-
-
-
-
-
+![16](https://user-images.githubusercontent.com/52549697/66732614-3b23a000-ee22-11e9-89f8-a96331304868.JPG)
+![17](https://user-images.githubusercontent.com/52549697/66732615-3b23a000-ee22-11e9-8de0-fe724a397033.JPG)
+![18](https://user-images.githubusercontent.com/52549697/66732616-3b23a000-ee22-11e9-849a-865d8c780802.JPG)
 
 Pagina
+
+![19](https://user-images.githubusercontent.com/52549697/66732618-3b23a000-ee22-11e9-8561-276ca49422ef.JPG)
+![20](https://user-images.githubusercontent.com/52549697/66732619-3b23a000-ee22-11e9-84fe-2e2e92a70a2c.JPG)
  
- 
-
-
-
-
-
-
-
-
 6.	Se debe incluir la información de GitHub (usuario y URL del repositorio de la práctica)
 Usuario: criveral2
 Repositorio Practica01-Mi-Blog: https://github.com/criveral2/Practica01-Mi-Blog.git
 
-RESULTADO(S) OBTENIDO(S):
+<pre>RESULTADO(S) OBTENIDO(S):
 La implementación de html5 en la práctica nos ayudó a entender mejor la estructura, sus componentes y herramientas de los sitios web, además de su modelo de negocio en internet. 
 CONCLUSIONES:
 Podremos organizar futuros proyectos como también la capacidad de implementar html5 en futuras páginas web a desarrollar.
 RECOMENDACIONES:
-Se recomienda probar la pagina web en al menos tres navegadores web; Google Chrome, Firefox y Safari debido a que existen navegadores que podrían dar fallas y así poder tomar medidas.
+Se recomienda probar la pagina web en al menos tres navegadores web; Google Chrome, Firefox y Safari debido a que existen navegadores que podrían dar fallas y así poder tomar medidas.<pre>
 
 Nombre de estudiante: __Christian Rivera___________________________
 
