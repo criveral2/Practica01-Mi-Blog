@@ -21,6 +21,7 @@ GitHub
 ![2](https://user-images.githubusercontent.com/52549697/66731296-41168280-ee1c-11e9-911f-d4d7086b4eab.JPG)
  
 Pc git
+![3](https://user-images.githubusercontent.com/52549697/66731792-be42f700-ee1e-11e9-8c0d-289635c705d0.JPG)
  
 3.	Validar todas las páginas HTML creadas usando el W3C Validator
 Procederemos a validar cada una de las paginas creadas con el software W3C Validator, la cual nos indicara estándares y recomendaciones para el desarrollo de la web en caso de existir algún error.
