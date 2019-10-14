@@ -1,18 +1,29 @@
+<!-- la etiqueta <!DOCTYPE> definira que el archivo sera del tipo html-->
 <!DOCTYPE html>
-<html>
+<!--Definirimes la seccion de nuestra pagina web y se especificara el idioma empleado segun las recomendaciones de W3C value-->
+<html lang="es">
+    <!--la etiqueta <head> definira los metadatos que seran utilizados por la pagina sin embargo el usuario no podra visualizarlos-->
 <head>
         <title>P30 plus</title>
         <meta charset="utf-8">
 
 </head>
+<!--la etiqueta <body> nos permite indicar el cuerpo de nuestra pagina web
+    es decir aqui es donde contendra toda la informacion visible para el usuario-->
 <body>
     <header>
+         <!--<img> e suna etiqueta que nos permite insertar imagenes sinembargo esta debe ser complementada con src que 
+        es el que indica la ruta de la imagen  seguido de alt el cual indica un nombre en el caso de no mostrarce la imagen-->
         <img src="../images/logo4.jpg" alt="celular: Huawei" width="1500" height="260"/>
 
     </header>
     <nav>
             <h1>Menu</h1>
+            <!--la etiqueta <ul> nos permite crear una lista desordenada -->
             <ul>
+                 <!--<li> es una etiqueta que nos permite rellenar la lista-->
+                    <!--mientras que la etiqueta <a> nos permite generar links de navegacion sin embargo esta debe componerse con 
+                        el complemento href el cual no permite indicar la ruta del archivo al cual queremos acceder -->
                 <li><a href="../index.html">Pagina principal</a></li>
                 <li><a href="../Iphone/iPhone11.html">iPhone 11 Pro Max</a></li>
                 <li><a href="../Samsung/SGalaxyS10.html">Samsung Galaxi s10 +</a> </li>
@@ -22,8 +33,11 @@
     </nav>
  
     <section>
+        <!--<h2> es una etiqueta que nos permite generar un titulo con menor importancia a diferencia de la etiqueta <h1>-->
+            <h2 style="font-size: 40px;">Huawei P30 Pro</h2>
+            <!--<article> es una etiqueta que es utilizada para definir el contenido de la pagina web-->
         <article>
-            <h1 style="font-size: 40px;">Huawei P30 Pro</h1>
+            <!--<blockquote> esuna etiqueta que nos permite definir una seccion que se cita de otra pagina-->
                 <blockquote cite="https://consumer.huawei.com/latin/phones/p30-pro/">  
                     <pre><b>Haz zoom para explorar el misterio de lo celestial durante la noche, observa un águila sobre los árboles
 o examina los delicados detalles del cristal. Captura las mejores cosas en el momento exacto y crea tu visión
@@ -31,6 +45,9 @@ para el futuro. El HUAWEI P30 Pro acentúa un nuevo esplendor en la fotografía 
             <img src="../images/Huawei.jpg" alt="celular:huawei">
 
             <h2>Camaras</h2>
+             <!--La etiqueta <pre> es utilizada para mantener el formato del texto tal y como se lo escribio--> 
+                <!--la etiqueta <b> permite poner a un texto o palabra en negrita-->   
+                    <!--la etiqueta <em> es una etiqueta que pone enfasis a un texto o una palabra-->
             <pre><b>El sistema de cuatro cámaras de Leica se adapta a tus fotografías para ayudartea ver el mundo en su totalidad. 
 Este inigualable sistema de súper cámara incluye un objetivo SuperZoom, una increíble cámara de detección de 40 MP, 
  un objetivo ultra gran angular de 20 MP y una cámara con modo de tiempo de vuelo (Time of flight, TOF)de HUAWEI que 
@@ -54,8 +71,10 @@ con tecnología inteligente de ahorro de energía.
 
 La carga ya no es una molestia, sino una tarea sin complicaciones. Carga tu teléfono a un 70% de 
 potencia en 30 minutos10 antes de salir de tu casa o durante un descanso para tomar café.</b></pre>
+<!--<iframe> es una etiqueta utilizada para colocar videos en nustra pagina web la cual es complementada con width, height, src, allow 
+    los cuales modificaran la forma en la que se precente el video-->
 <iframe src="https://www.cnet.com/es/videos/share/huawei-p30-pro-analisis-prueba-de-camara/" 
-width="480" height="270" frameBorder="0" seamless="seamless" allowFullScreen></iframe>
+width="480" height="270"  allowFullScreen></iframe>
 
             <h2>Caracteristicas y especificaciones</h2>
 <pre><b>                    Pantalla: 
@@ -114,13 +133,16 @@ width="480" height="270" frameBorder="0" seamless="seamless" allowFullScreen></i
                 <a href="https://es.wikipedia.org/wiki/Memoria_(inform%C3%A1tica)">Memoria RAM</a>
         </aside>
     </section>
-
+<!--La etiqueta <footer> nos permitira agregar un pie de pagina-->
     <footer>
+        <!--<hr> es una etiqueta que no permitira generar una linea recta como una regleta en nuestra pagina web-->
             <hr/>
             <p>Christian Geovanny Rivera Loja</p>
             <p>Universidad Politécnica Salesiana</p>
+            <!--&nbsp; es codigo que nos permitira obtener un espacio en blanco en html-->
             <p>mail:&nbsp;<a href="mailto:criveral2@est.ups.edu.ec" >criveral2@est.ups.edu.ec</a></p>
             <p>telefono:&nbsp;<a href="tel:0991748263">0991748263</a></p>
+             <!--&#169; este codigo permitira generar el simbolo de copyright -->
             <pre>      &#169;Todos los derechos reservados</pre>
     </footer>
 

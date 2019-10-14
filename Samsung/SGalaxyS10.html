@@ -1,17 +1,37 @@
+<!-- la etiqueta <!DOCTYPE> definira que el archivo sera del tipo html-->
 <!DOCTYPE html>
-<html>
+<!--Definirimes la seccion de nuestra pagina web y se especificara el idioma empleado segun las recomendaciones de W3C value-->
+<html lang="es">
+    <!--la etiqueta <head> definira los metadatos que seran utilizados por la pagina sin embargo el usuario no podra visualizarlos-->
 <head>
+     <!--<title> = nos idica el nombre de la pestaña de nuestra pagina web-->
         <title>Galaxi s10 plus</title>
+        <!--Hace referencia a que podra distingir letras especiales como es el caso de la ñ-->
         <meta charset="utf-8">
 </head>
+<!--la etiqueta <body> nos permite indicar el cuerpo de nuestra pagina web
+    es decir aqui es donde contendra toda la informacion visible para el usuario-->
 <body>
+    <!--<header> =  esta etiqueta nos permite definir un encabezado pero tambien esta 
+        permite a un desarrollador distinguir la estructura del codigo -->
     <header>
+        <!--<img> e suna etiqueta que nos permite insertar imagenes sinembargo esta debe ser complementada con src que 
+        es el que indica la ruta de la imagen  seguido de alt el cual indica un nombre en el caso de no mostrarce la imagen-->
         <img src="../images/logo2.png" alt="celular:Samsung" width="1600" height="260"/>
 
     </header>
+    <!--<nav> =  esta etiqueta nos permite definir una seccion de navegacion  pero tambien esta 
+        permite a un desarrollador distinguir la estructura del codigo -->
+
     <nav>
+         <!--<h1> = esta etiqueta nos permite definir un titulo con mayor importancia por lo que otra paginas
+                lo pueden tomar como referencia -->
             <h1>Menu</h1>
+            <!--la etiqueta <ul> nos permite crear una lista desordenada -->
             <ul>
+                <!--<li> es una etiqueta que nos permite rellenar la lista-->
+                    <!--mientras que la etiqueta <a> nos permite generar links de navegacion sin embargo esta debe componerse con 
+                        el complemento href el cual no permite indicar la ruta del archivo al cual queremos acceder -->
                 <li><a href="../index.html">Pagina principal</a></li>
                 <li><a href="../Iphone/iPhone11.html">iPhone 11 Pro Max</a></li>
                 <li><a href="../Asus/Rphone2.html">Rog Phone 2</a></li>
@@ -19,10 +39,15 @@
                 <li><a href="../Xiaomi/Mi9T.html">Xiaomi Mi 9T</a></li>
             </ul>
     </nav>
-   
+    <!--<section> =  esta etiqueta nos permite definir una seccion en nuestra pagina web  pero tambien esta 
+        permite a un desarrollador distinguir la estructura del codigo -->
     <section>
+            <h2 style="font-size: 40px;">Samsung Galaxy S10 +</h2>
+            <!--<article> es una etiqueta que es utilizada para definir el contenido de la pagina web-->
         <article>
-            <h1 style="font-size: 40px;">Samsung Galaxy S10 +</h1>
+            <!--La etiqueta <pre> es utilizada para mantener el formato del texto tal y como se lo escribio--> 
+                <!--la etiqueta <b> permite poner a un texto o palabra en negrita-->   
+                    <!--la etiqueta <em> es una etiqueta que pone enfasis a un texto o una palabra-->
             <pre><b><em>El teléfono inteligente de próxima generación con pantalla inteligente</em> Infinity-O Display
 Consta de la eliminacion de las distracciones para una experiencia de visualización cinematográfica.
 Al utilizar un corte láser preciso, la cámara se ha escondido discretamente dentro de la pantalla sin 
@@ -34,6 +59,7 @@ sacrificar la calidad de la foto.</b></pre>
 Usando pulsos ultrasónicos, detecta las crestas 3D y los valles de su huella digital, por lo que solo 
 usted puede acceder a su teléfono. Es seguro y conveniente, incluso te permite desbloquear, arrastrar y 
 mantener presionado para abrir la aplicación que deseas.</b></pre>
+<!--<h2> es una etiqueta que nos permite generar un titulo con menor importancia a diferencia de la etiqueta <h1>-->
             <h2>Pantalla</h2>
             <pre><b>La pantalla Dynamic AMOLED de la próxima generación cuenta con la certificación HDR10 +, y ofrece mapeo 
 dinámico de tonos para obtener colores y contrastes increíblemente reales en cada escena, incluso en las
@@ -43,7 +69,9 @@ altavoces estéreo y Dolby Atmos, la experiencia es realmente inmersiva.
 Un compuesto fluido único en Dynamic AMOLED reduce la luz azul dañina sin cambiar el color de lo que está
 en la pantalla. Mire o juegue hasta altas horas de la noche con menos fatiga visual para una mejor noche 
 de sueño.</b></pre>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0iz9IgSU6vI" frameborder="0" 
+<!--<iframe> es una etiqueta utilizada para colocar videos en nustra pagina web la cual es complementada con width, height, src, allow 
+    los cuales modificaran la forma en la que se precente el video-->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0iz9IgSU6vI" 
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <h2>Características y especificaciones</h2>
             <pre><b>Pantalla: 
@@ -116,13 +144,15 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
         </aside>
     </section>
 
-
+<!--La etiqueta <footer> nos permitira agregar un pie de pagina-->
     <footer>
             <hr/>
             <p>Christian Geovanny Rivera Loja</p>
             <p>Universidad Politécnica Salesiana</p>
+            <!--&nbsp; es codigo que nos permitira obtener un espacio en blanco en html-->
             <p>mail:&nbsp;<a href="mailto:criveral2@est.ups.edu.ec" >criveral2@est.ups.edu.ec</a></p>
             <p>telefono:&nbsp;<a href="tel:0991748263">0991748263</a></p>
+            <!--&#169; este codigo permitira generar el simbolo de copyright -->
             <pre>      &#169;Todos los derechos reservados</pre>
     </footer>
 

@@ -1,17 +1,40 @@
+<!-- la etiqueta <!DOCTYPE> definira que el archivo sera del tipo html-->
 <!DOCTYPE html>
-<html>
+<!--Definirimes la seccion de nuestra pagina web y se especificara el idioma empleado segun las recomendaciones de W3C value-->
+<html lang="es">
+<!--la etiqueta <head> definira los metadatos que seran utilizados por la pagina sin embargo el usuario no podra visualizarlos-->
 <head>
+    <!--<title> = nos idica el nombre de la pestaña de nuestra pagina web-->
         <title>Mi 9T</title>
+        <!--Hace referencia a que podra distingir letras especiales como es el caso de la ñ-->
         <meta charset="utf-8">
 </head>
+<!--se cierra la etiqueta </heat> por lo que la mayoria de etiquetas suelen cerrarce con un </nombre de la etiqueta> -->
+
+<!--la etiqueta <body> nos permite indicar el cuerpo de nuestra pagina web
+    es decir aqui es donde contendra toda la informacion visible para el usuario-->
 <body>
+    <!--<header> =  esta etiqueta nos permite definir un encabezado pero tambien esta 
+        permite a un desarrollador distinguir la estructura del codigo -->
     <header>
+         <!--<img> e suna etiqueta que nos permite insertar imagenes sinembargo esta debe ser complementada con src que 
+        es el que indica la ruta de la imagen  seguido de alt el cual indica un nombre en el caso de no mostrarce la imagen-->
         <img src="../images/logo5.png" alt="celular: Xiomi" width="1600" height="260"/>
 
     </header>
+
+    <!--<nav> =  esta etiqueta nos permite definir una seccion de navegacion  pero tambien esta 
+        permite a un desarrollador distinguir la estructura del codigo -->
     <nav>
+            <!--<h1> = esta etiqueta nos permite definir un titulo con mayor importancia por lo que otra paginas
+                lo pueden tomar como referencia -->
             <h1>Menu</h1>
+
+            <!--la etiqueta <ul> nom permite crear una lista desordenada -->
             <ul>
+                <!--<li> es una etiqueta que nos permite rellenar la lista-->
+                    <!--mientras que la etiqueta <a> nos permite generar links de navegacion sin embargo esta debe componerse con 
+                        el complemento href el cual no permite indicar la ruta del archivo al cual queremos acceder -->
                 <li><a href="../index.html">Pagina principal</a></li>
                 <li><a href="../Iphone/iPhone11.html">iPhone 11 Pro Max</a></li>
                 <li><a href="../Samsung/SGalaxyS10.html">Samsung Galaxi s10 +</a> </li>
@@ -19,16 +42,22 @@
                 <li><a href="../Huawei/HuaweiP30.html">Huawei P30 Pro</a></li>
             </ul>
     </nav>
-
+<!--<section> =  esta etiqueta nos permite definir una seccion en nuestra pagina web  pero tambien esta 
+        permite a un desarrollador distinguir la estructura del codigo -->
     <section>
+        <!--<h2> es una etiqueta que nos permite generar un titulo con menor importancia a diferencia de la etiqueta <h1>-->
+            <h2 style="font-size: 40px;">Mi 9T</h2>
+
+        <!-- la etiqueta <article> -->
         <article>
-            <h1 style="font-size: 40px;">Mi 9T</h1>
+            <!--<blockquote> esuna etiqueta que nos permite definir una seccion que se cita de otra pagina-->
             <blockquote cite="https://www.mi.com/es/mi-9-t-pro/">  
                 <pre><b>Demuestra tus habilidades con el procesador Snapdragon™ 855. Además, el rendimiento de un solo núcleo 
 de la CPU es mejorado en un 45%, la velocidad de juego se acelera en un 25% y el rendimiento de la Inteligencia
 Artificial se triplica. Justo la velocidad que necesitas.</b></pre> </blockquote>
 
             <img src="../images/Xiomi.jpg" alt="celular:xiomi">
+            <!--<h2> es una etiqueta que nos permite generar un titulo con menor importancia a diferencia de la etiqueta <h1>-->
 
             <h2>Aceleración</h2>
             <pre><b>Para una experiencia de juego óptima, Mi 9T Pro no solo te ofrece un gran hardware, sino también optimizaciones
@@ -38,11 +67,13 @@ actualizado da un gran impulso a la sensibilidad y capacidad de respuesta de la 
 más herramientas como la mejora visual, para que puedas jugar usando tu configuración personalizada.</b></pre>
 
             <h2>Enfriamiento</h2>
+            <!--La etiqueta <pre> es utilizada para mantener el formato del texto tal y como se lo escribio--> 
             <pre><b>Nuestro diseño de enfriamiento personalizado utiliza 8 capas de grafito en la parte frontal para disipar el calor con 
 una eficacia de un 650% mayor. En la parte trasera, el gel transmisor de calor, el grafito y el cobre mantienen la CPU 
 funcionando rápidamente para conseguir una frecuencia de imagen alta y estable en cada batalla</b></pre>
 
             <h2>Batería</h2>
+            <!--la etiqueta <b> permite poner a un texto o palabra en negrita-->   
             <pre><b>Además de un gran rendimiento, Mi 9T Pro también cuenta con una gran batería de 4.000 mAh de capacidad y admite carga
 rápida QC4+ de 27 W. Eso significa que puedes cargar su batería un 58% en solo 30 minutos.</b></pre>
 
@@ -54,7 +85,9 @@ de 124,8° con corrección por Inteligencia Artificial para evitar la distorsió
             <pre><b>El desbloqueo es ahora más rápido que nunca. La nueva tecnología de reconocimiento de huellas dactilares proporciona lo 
 último en detección óptica de huellas, expandiento el área fotosensorial en un 100% y utilizando un algoritmo actualizado para
 hacer que el desbloqueo sea más rápido, inteligente y seguro.</b></pre>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8YDoV3mDk-c" frameborder="0" 
+<!--<iframe> es una etiqueta utilizada para colocar videos en nustra pagina web la cual es complementada con width, height, src, allow 
+    los cuales modificaran la forma en la que se precente el video-->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8YDoV3mDk-c" 
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
             <h2>Caracteristicas</h2>
@@ -95,13 +128,16 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
                 <a href="https://es.wikipedia.org/wiki/Evoluci%C3%B3n_de_los_dispositivos_de_almacenamiento">Dispositivos de almacenamiento</a>
         </aside>
     </section>
-
+<!--La etiqueta <footer> nos permitira agregar un pie de pagina-->
     <footer>
+        <!--<hr> es una etiqueta que no permitira generar una linea recta como una regleta en nuestra pagina web-->
             <hr/>
             <p>Christian Geovanny Rivera Loja</p>
             <p>Universidad Politécnica Salesiana</p>
+            <!--&nbsp; es codigo que nos permitira obtener un espacio en blanco en html-->
             <p>mail:&nbsp;<a href="mailto:criveral2@est.ups.edu.ec" >criveral2@est.ups.edu.ec</a></p>
             <p>telefono:&nbsp;<a href="tel:0991748263">0991748263</a></p>
+            <!--&#169; este codigo permitira generar el simbolo de copyright -->
             <pre>      &#169;Todos los derechos reservados</pre>
     </footer>
 

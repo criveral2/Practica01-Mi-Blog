@@ -1,17 +1,37 @@
+<!-- la etiqueta <!DOCTYPE> definira que el archivo sera del tipo html-->
 <!DOCTYPE html>
-<html>
+<!--Definirimes la seccion de nuestra pagina web y se especificara el idioma empleado segun las recomendaciones de W3C value-->
+<html lang="es">
+    <!--la etiqueta <head> definira los metadatos que seran utilizados por la pagina sin embargo el usuario no podra visualizarlos-->
 <head>
+    <!--<title> = nos idica el nombre de la pestaña de nuestra pagina web-->
         <title>Rog Phone 2</title>
+        <!--Hace referencia a que podra distingir letras especiales como es el caso de la ñ-->
         <meta charset="utf-8">
 </head>
+<!--la etiqueta <body> nos permite indicar el cuerpo de nuestra pagina web
+    es decir aqui es donde contendra toda la informacion visible para el usuario-->
 <body>
+    <!--<header> =  esta etiqueta nos permite definir un encabezado pero tambien esta 
+        permite a un desarrollador distinguir la estructura del codigo -->
     <header>
+        <!--<img> e suna etiqueta que nos permite insertar imagenes sinembargo esta debe ser complementada con src que 
+        es el que indica la ruta de la imagen  seguido de alt el cual indica un nombre en el caso de no mostrarce la imagen-->
         <img src="../images/logo3.png" alt="celular:Asus" width="1600" height="260"/>
 
     </header>
+        <!--<nav> =  esta etiqueta nos permite definir una seccion de navegacion  pero tambien esta 
+        permite a un desarrollador distinguir la estructura del codigo -->
+
     <nav>
+         <!--<h1> = esta etiqueta nos permite definir un titulo con mayor importancia por lo que otra paginas
+                lo pueden tomar como referencia -->
             <h1>Menu</h1>
+            <!--la etiqueta <ul> nos permite crear una lista desordenada -->
             <ul>
+                <!--<li> es una etiqueta que nos permite rellenar la lista-->
+                    <!--mientras que la etiqueta <a> nos permite generar links de navegacion sin embargo esta debe componerse con 
+                        el complemento href el cual no permite indicar la ruta del archivo al cual queremos acceder -->
                 <li><a href="../index.html">Pagina principal</a></li>
                 <li><a href="../Iphone/iPhone11.html">iPhone 11 Pro Max</a></li>
                 <li><a href="../Samsung/SGalaxyS10.html">Samsung Galaxi s10 +</a> </li>
@@ -21,8 +41,9 @@
     </nav>
 
     <section>
+            <h2 style="font-size: 40px;">Rog Phone 2</h2>
         <article>
-            <h1 style="font-size: 40px;">Rog Phone 2</h1>
+            
             <pre><b>ROG Phone es un teléfono concebido para ganar, equipado con un procesador Qualcomm Snapdragon 845
 Mobile Platform acelerado a 2.96 GHz, GPU Adreno 630, refrigeración GameCool con cámara de vapor y un
 Cooler AeroActive externo desmontable que permite alcanzar más FPS en el fragor de la batalla. La
@@ -54,7 +75,9 @@ eficiente cámara de vapor, un disipador de cobre y unas almohadillas de transmi
 Y cuando necesites exprimir todo el rendimiento de ROG Phone, el AeroActive Cooler ofrece un plus de 
 refrigeración. Su ventilador de 4 velocidades consigue reducir la temperatura de la superficie hasta 
 4.7 °C, para que tanto el dispositivo como tus manos no se calienten mientras juegas.</b></pre>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fYhnLvIZST0" frameborder="0" 
+<!--<iframe> es una etiqueta utilizada para colocar videos en nustra pagina web la cual es complementada con width, height, src, allow 
+    los cuales modificaran la forma en la que se precente el video-->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fYhnLvIZST0"  
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
             <h2>Carecteristicas</h2>
@@ -94,13 +117,16 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
                 <a href="https://es.wikipedia.org/wiki/Android_Pie">SO Android</a>
         </aside>
     </section>
-
+<!--La etiqueta <footer> nos permitira agregar un pie de pagina-->
     <footer>
+<!--<hr> es una etiqueta que no permitira generar una linea recta como una regleta en nuestra pagina web-->
             <hr/>
             <p>Christian Geovanny Rivera Loja</p>
             <p>Universidad Politécnica Salesiana</p>
+            <!--&nbsp; es codigo que nos permitira obtener un espacio en blanco en html-->
             <p>mail:&nbsp;<a href="mailto:criveral2@est.ups.edu.ec" >criveral2@est.ups.edu.ec</a></p>
             <p>telefono:&nbsp;<a href="tel:0991748263">0991748263</a></p>
+            <!--&#169; este codigo permitira generar el simbolo de copyright -->
             <pre>      &#169;Todos los derechos reservados</pre>
     </footer>
 

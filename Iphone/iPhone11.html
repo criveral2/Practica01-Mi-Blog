@@ -1,16 +1,34 @@
+<!-- la etiqueta <!DOCTYPE> definira que el archivo sera del tipo html-->
 <!DOCTYPE html>
-<html>
+<!--Definirimes la seccion de nuestra pagina web y se especificara el idioma empleado segun las recomendaciones de W3C value-->
+<html lang="es">
+    <!--la etiqueta <head> definira los metadatos que seran utilizados por la pagina sin embargo el usuario no podra visualizarlos-->
 <head>
+    <!--<title> = nos idica el nombre de la pestaña de nuestra pagina web-->
         <title>Iphone 11 pro max</title>
+        <!--Hace referencia a que podra distingir letras especiales como es el caso de la ñ-->
         <meta charset="utf-8">
 </head>
+<!--se cierra la etiqueta </heat> por lo que la mayoria de etiquetas suelen cerrarce con un </nombre de la etiqueta> -->
+<!--la etiqueta <body> nos permite indicar el cuerpo de nuestra pagina web
+    es decir aqui es donde contendra toda la informacion visible para el usuario-->
 <body>
+    <!--<header> =  esta etiqueta nos permite definir un encabezado pero tambien esta 
+        permite a un desarrollador distinguir la estructura del codigo -->
     <header>
+        <!--<img> e suna etiqueta que nos permite insertar imagenes sinembargo esta debe ser complementada con src que 
+        es el que indica la ruta de la imagen  seguido de alt el cual indica un nombre en el caso de no mostrarce la imagen-->
 
         <img src="../images/logo1.jpg" alt="celular:apple" width="1700" height="450"/>
+        <!--<h1> = esta etiqueta nos permite definir un titulo con mayor importancia por lo que otra paginas
+                lo pueden tomar como referencia -->
 
         <h1>Menu</h1>
+        <!--la etiqueta <ul> nos permite crear una lista desordenada -->
             <ul>
+                <!--<li> es una etiqueta que nos permite rellenar la lista-->
+                    <!--mientras que la etiqueta <a> nos permite generar links de navegacion sin embargo esta debe componerse con 
+                        el complemento href el cual no permite indicar la ruta del archivo al cual queremos acceder -->
                 <li><a href="../index.html">Pagina principal</a></li>
                 <li><a href="../Samsung/SGalaxyS10.html">Samsung Galaxi s10 +</a> </li>
                 <li><a href="../Asus/Rphone2.html">Rog Phone 2</a></li>
@@ -18,30 +36,39 @@
                 <li><a href="../Xiaomi/Mi9T.html">Xiaomi Mi 9T</a></li>
             </ul>
 
-        <h1 style="font-size: 40px;">iPhone 11 Pro</h1>
+        
     </header>
   
 
 <header>
+    <!--<nav> =  esta etiqueta nos permite definir una seccion de navegacion  pero tambien esta 
+        permite a un desarrollador distinguir la estructura del codigo -->
     <nav>
-            <a href="#Cita">Cita</a></br>
-            <a href="#Camara">Camara</a></br>
+        <!--mientras que la etiqueta <a> nos permite generar links de navegacion sin embargo esta debe componerse con 
+                        el complemento href el cual no permite indicar la ruta del archivo al cual queremos acceder -->
+            <a href="#Cita">Cita</a><br>
+            <a href="#Camara">Camara</a><br>
             <ul>
-                <li><a href="#Ultra gran angular">Ultra gran angular</a></li>
-                <li><a href="#Gran angular">Gran angular</a></li>
+                <li><a href="#Ultragranangular">Ultra gran angular</a></li>
+                <li><a href="#Granangular">Gran angular</a></li>
                 <li><a href="#Teleobjetivo">Teleobjetivo</a></li>
             </ul>
-            <a href="#Modo Noche">Modo Noche</a></br>
-            <a href="#interfaz elegante e inmersiva">Interfaz elegante e inmersiva</a></br>
-            <a href="#Caracteristicas">Caracteristicas</a></br>
+            <a href="#ModoNoche">Modo Noche</a><br>
+            <a href="#interfazeleganteeinmersiva">Interfaz elegante e inmersiva</a><br>
+            <a href="#Caracteristicas">Caracteristicas</a><br>
     </nav>
 </header>
 <!--primera seccion-->
-    
+    <!--<section> =  esta etiqueta nos permite definir una seccion en nuestra pagina web  pero tambien esta 
+        permite a un desarrollador distinguir la estructura del codigo -->
     <section>
+        <!--<h2> es una etiqueta que nos permite generar un titulo con menor importancia a diferencia de la etiqueta <h1>-->
+            <h2 style="font-size: 40px;">iPhone 11 Pro</h2>
         <!-- 1 -->
         <article>
+            <!--<blockquote> esuna etiqueta que nos permite definir una seccion que se cita de otra pagina-->
             <blockquote cite="https://www.apple.com/la/iphone-11-pro/"> <h2 style="font-size: 30px;" id="Cita">Y un día llegó el iPhone Pro.</h2>  
+            <!--La etiqueta <pre> es utilizada para mantener el formato del texto tal y como se lo escribio-->   
             <pre><b>El iPhone Pro tiene un revolucionario sistema de tres cámaras, muy fácil de usar, que multiplica 
 tu capacidad creativa. Y trae un chip sorprendente que potencia el aprendizaje automático y redefine 
 lo que un smartphone puede hacer. Además, la duración de la batería mejoró como nunca. Te presentamos
@@ -52,6 +79,7 @@ un iPhone tan poderoso que tuvimos que llamarlo Pro.</b></pre> </blockquote>
         <!-- 2 -->
         <article>
                 <h2 style="font-size: 30px;" id="Camara">Sistema de cámaras Pro</h2>
+                <!--la etiqueta <b> permite poner a un texto o palabra en negrita-->     
                 <pre><b>El primer sistema de tres cámaras que te ofrece, como siempre hace el iPhone, tecnología de última 
 generación muy fácil de usar. Podrás tomar fotos espectaculares con poca luz, abarcar un campo visual 
 hasta cuatro veces más amplio y grabar videos con una calidad que ningún otro smartphone te ofrece. Además,
@@ -63,40 +91,41 @@ gran angular es que tu campo visual será cuatro veces más amplio. Es como dar 
 sin que tengas que moverte. Todo listo para capturar cadenas montañosas, catedrales altas y paisajes 
 urbanos famosos.</b></pre>
 
-                <h2 style="font-size: 30px;" id="Modo Noche">Modo Noche</h2>
+                <h2 style="font-size: 30px;" id="ModoNoche">Modo Noche</h2>
                 <pre><b>El modo Noche es espectacular para tomar fotos en restaurantes con luz tenue o en noches de luna 
 llena en la playa. Con la ayuda de software inteligente y el chip A13 Bionic, este modo te permite tomar
 fotos con una calidad nunca antes vista en un iPhone. Y todo funciona de forma automática. Además, 
 puedes experimentar con los controles manuales para agregar más detalles, reducir el ruido o capturar 
 las estelas de luz que dejan los autos en la autopista.Sin modo Noche</b></pre>
-
-<h3 id="Ultra gran angular">Cámara ultra gran angular</h3>
-<p>Distancia focal de 13 mm</br>
-        Apertura de ƒ/2.4</br>
-        Lente de 5 elementos</br>
-        Ángulo de visión de 120°</br>
-        Campo visual 4x más amplio</br>
+<!--el complemento id permite señalar una seccion con un id-->
+<h3 id="Ultragranangular">Cámara ultra gran angular</h3>
+<p>Distancia focal de 13 mm<br>
+        Apertura de ƒ/2.4<br>
+        Lente de 5 elementos<br>
+        Ángulo de visión de 120°<br>
+        Campo visual 4x más amplio<br>
         Sensor de 12 MP</p>
 
-<h3 id="Gran angular">Cámara gran angular</h3>
-<p>Distancia focal de 26 mm</br>
-        Apertura de ƒ/1.8</br>
-        Lente de 6 elementos</br>
-        Estabilización óptica de imagen</br>
-        100% Focus Pixels</br>
+<h3 id="Granangular">Cámara gran angular</h3>
+<p>Distancia focal de 26 mm<br>
+        Apertura de ƒ/1.8<br>
+        Lente de 6 elementos<br>
+        Estabilización óptica de imagen<br>
+        100% Focus Pixels<br>
         Nuevo sensor de 12 MP</p>
 <h3 id="Teleobjetivo">Cámara teleobjetivo</h3>
-<p>Distancia focal de 52 mm</br>
-        Mayor apertura de ƒ/2.0</br>
-        Lente de 6 elementos</br>
-        Estabilización óptica de imagen</br>
-        Zoom óptico de 2x</br>
+<p>Distancia focal de 52 mm<br>
+        Mayor apertura de ƒ/2.0<br>
+        Lente de 6 elementos<br>
+        Estabilización óptica de imagen<br>
+        Zoom óptico de 2x<br>
         Sensor de 12 MP </p>
 
         </article>
         <!-- 3 -->
+        <!--<article> es una etiqueta que es utilizada para definir el contenido de la pagina web-->
         <article>
-                <h2 style="font-size: 30px;" id="interfaz elegante e inmersiva"><strong> interfaz elegante e inmersiva.</strong></h2>
+                <h2 style="font-size: 30px;" id="interfazeleganteeinmersiva"><strong> interfaz elegante e inmersiva.</strong></h2>
 <pre><b>Te muestra lo que está fuera de cuadro para que puedas 
 tomar una foto más amplia con sólo un toque. El diseño es tan sutil que sólo la tipografía de 
 la interfaz se interpone entre la imagen y tú, para que prácticamente vivas la escena desde 
@@ -110,31 +139,35 @@ adentro.</b></pre>
 
 <header>
     <nav>
-            <a href="#Video 4K">Video 4K</a></br>
-            <a href="#HDR Inteligente">HDR Inteligente</a></br>
-            <a href="#Pantalla Pro Super Retina XDR">Pantalla </a></br>
-            <a href="#Chip">Chip</a></br>
+            <a href="#Video4K">Video 4K</a><br>
+            <a href="#HDRInteligente">HDR Inteligente</a><br>
+            <a href="#PantallaProSuperRetinaXDR">Pantalla </a><br>
+            <a href="#Chip">Chip</a><br>
     </nav>
 </header>
 
 <!--segunda seccion-->
     <section>
         <!-- 1 -->
+        <h2>.</h2>
         <article>
-            <h2 style="font-size: 30px;" id="Video 4K"> Video 4K</h2>
+            <h2 style="font-size: 30px;" id="Video4K"> Video 4K</h2>
             <pre><b>En los videos grabados con el iPhone 11 Pro todo se ve muy real, con acciones 
 fluidas y un gran nivel de detalle. Gracias a una potencia de procesamiento espectacular, 
 puedes grabar videos 4K a 60 cps con rango dinámico extendido y estabilización cinemática
 de video. Tendrás un campo visual cuatro veces más amplio para que nada se le escape a
 tu talento de director. Y nuevas y potentes herramientas para lucirte como editor.</b></pre>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/a7xPmFJup-0" frameborder="0" 
+
+<!--<iframe> es una etiqueta utilizada para colocar videos en nustra pagina web la cual es complementada con width, height, src, allow 
+    los cuales modificaran la forma en la que se precente el video-->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/a7xPmFJup-0"  
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
         </article>
     
         <!-- 2 -->
         <article>
-            <h2 style="font-size: 30px;" id="HDR Inteligente">HDR Inteligente</h2>
+            <h2 style="font-size: 30px;" id="HDRInteligente">HDR Inteligente</h2>
             <pre><b>El HDR Inteligente de última generación usa algoritmos avanzados para ajustar
 los detalles de las luces y sombras en tus fotos. Y ahora, gracias al aprendizaje
 automático, reconoce las caras en tu toma para iluminarlas de forma inteligente, 
@@ -143,7 +176,7 @@ algunas cámaras DSLR aún no pueden hacerlo.</b></pre>
         </article>
         <!-- 3 -->
         <article>
-            <h2 style="font-size: 30px;" id="Pantalla Pro Super Retina XDR">Pantalla Pro Super Retina XDR</h2>
+            <h2 style="font-size: 30px;" id="PantallaProSuperRetinaXDR">Pantalla Pro Super Retina XDR</h2>
             <pre><b>La pantalla Super Retina XDR tiene no sólo uno, sino dos nuevos niveles máximo
 de brillo. Y sabe cuándo usarlos. Llega hasta 800 nits cuando estás al sol (perfecto 
 para hacer fotos y elegir las mejores sobre la marcha) y hasta 1,200 nits cuando 
@@ -152,7 +185,7 @@ XDR en el iPhone.</b></pre>
             <h2 style="font-size: 30px;" id="Chip">Chip</h2>
             <pre><b>Diseñaron el chip A13 Bionic con el aprendizaje automático en mente para brindar 
 experiencias que ningún otro smartphone ofrece. Es tan rápido, potente e inteligente 
-que está a años luz de cualquier otro. Y esa ventaja no nos sorprende.</pre>
+que está a años luz de cualquier otro. Y esa ventaja no nos sorprende.</b></pre>
 
             <h2 style="font-size: 30px;" id="Caracteristicas">Caracteristicas</h2>
             <pre><b>Capacidad:  
@@ -208,6 +241,8 @@ que está a años luz de cualquier otro. Y esa ventaja no nos sorprende.</pre>
             </b></pre>
 
         </article>
+        <!--<aside> =  esta etiqueta nos permite definir una seccion de enlaces relacionados al tema tratado  pero tambien esta 
+        permite a un desarrollador distinguir la estructura del codigo -->
         <aside>
                 <h3>Profundizar mas sobre el chip A13 diseñado por apple</h3>
                 <a href="https://en.wikipedia.org/wiki/Apple_A13">Chip A13</a>
@@ -217,17 +252,17 @@ que está a años luz de cualquier otro. Y esa ventaja no nos sorprende.</pre>
     </section>
 
 
-
-
-
-
+<!--La etiqueta <footer> nos permitira agregar un pie de pagina-->
 
     <footer>
+        <!--<hr> es una etiqueta que no permitira generar una linea recta como una regleta en nuestra pagina web-->
             <hr/>
             <p>Christian Geovanny Rivera Loja</p>
             <p>Universidad Politécnica Salesiana</p>
+            <!--&nbsp; es codigo que nos permitira obtener un espacio en blanco en html-->
             <p>mail:&nbsp;<a href="mailto:criveral2@est.ups.edu.ec" >criveral2@est.ups.edu.ec</a></p>
             <p>telefono:&nbsp;<a href="tel:0991748263">0991748263</a></p>
+            <!--&#169; este codigo permitira generar el simbolo de copyright -->
             <pre>      &#169;Todos los derechos reservados</pre>
     </footer>
 

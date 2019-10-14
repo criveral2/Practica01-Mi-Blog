@@ -1,11 +1,20 @@
+<!-- la etiqueta <!DOCTYPE> definira que el archivo sera del tipo html-->
 <!DOCTYPE html>
-<html>
+<!--Definirimes la seccion de nuestra pagina web y se especificara el idioma empleado segun las recomendaciones de W3C value-->
+<html lang="es">
+    <!--la etiqueta <head> definira los metadatos que seran utilizados por la pagina sin embargo el usuario no podra visualizarlos-->
 <head>
+    <!--<title> = nos idica el nombre de la pestaña de nuestra pagina web-->
     <title>Menu</title>
+    <!--Hace referencia a que podra distingir letras especiales como es el caso de la ñ-->
     <meta charset="utf-8">
+    <!--<style> permite definir elemetos que contengan un determinado formato y estos puedan usarce como es el caso de 
+        table es cual indica que el objeto sera una tabla donde tr seran las filas y td seran las columnas y th seran las celdas que 
+    se definiran como cabeceras -->
+    <!--border = indicara que sus bordes seran de color negro-->
 
     <style>
-        table,td,td,th{
+        table,tr,td,th{
             border: 1px solid black;
         }
         th {
@@ -14,17 +23,31 @@
     </style>
 
 </head>
+<!--se cierra la etiqueta </heat> por lo que la mayoria de etiquetas suelen cerrarce con un </nombre de la etiqueta> -->
+<!--la etiqueta <body> nos permite indicar el cuerpo de nuestra pagina web
+    es decir aqui es donde contendra toda la informacion visible para el usuario-->
 <body>
+    <!--<header> =  esta etiqueta nos permite definir un encabezado pero tambien esta 
+        permite a un desarrollador distinguir la estructura del codigo -->
     <header>
+        <!--<img> e suna etiqueta que nos permite insertar imagenes sinembargo esta debe ser complementada con src que 
+        es el que indica la ruta de la imagen  seguido de alt el cual indica un nombre en el caso de no mostrarce la imagen-->
         <img src="images/Index.jpg" alt="logo del menu" width="1600" height="180"/>
 
 
     </header>
-
+<!--<nav> =  esta etiqueta nos permite definir una seccion de navegacion  pero tambien esta 
+        permite a un desarrollador distinguir la estructura del codigo -->
 
     <nav>
+        <!--<h1> = esta etiqueta nos permite definir un titulo con mayor importancia por lo que otra paginas
+                lo pueden tomar como referencia -->
         <h1>Menu</h1>
+        <!--la etiqueta <ul> nos permite crear una lista desordenada -->
             <ul>
+                 <!--<li> es una etiqueta que nos permite rellenar la lista-->
+                    <!--mientras que la etiqueta <a> nos permite generar links de navegacion sin embargo esta debe componerse con 
+                        el complemento href el cual no permite indicar la ruta del archivo al cual queremos acceder -->
                 <li><a href="Iphone/iPhone11.html">iPhone 11 Pro Max</a></li>
                 <li><a href="Samsung/SGalaxyS10.html">Samsung Galaxi s10 +</a> </li>
                 <li><a href="Asus/Rphone2.html">Rog Phone 2</a></li>
@@ -34,9 +57,16 @@
 
     </nav>
 
+  <!--<section> =  esta etiqueta nos permite definir una seccion en nuestra pagina web  pero tambien esta 
+        permite a un desarrollador distinguir la estructura del codigo -->
     <section>
+         <!--<h2> es una etiqueta que nos permite generar un titulo con menor importancia a diferencia de la etiqueta <h1>-->
+            <h2 style="font-size: 40px;">Los dispositivos móviles</h2>
+
+        <!--<article> es una etiqueta que es utilizada para definir el contenido de la pagina web-->
         <article>
-            <h1 style="font-size: 40px;">Los dispositivos móviles</h1>
+<!--La etiqueta <pre> es utilizada para mantener el formato del texto tal y como se lo escribio-->    
+<!--la etiqueta <b> permite poner a un texto o palabra en negrita-->     
 <pre><b> Son dispositivos electrónicos cuya función es comunicar telefónicamente a sus usuarios desde cualquier lugar que se encuentre, 
 siempre y cuando, haya señal. El uso de este dispositivo aumenta considerablemente cada día debido a la gran importancia que posee. 
 Hay quienes encuentran importante al celular ya que les permite trabajar desde donde se encuentren, ya sea que se hayan ido de 
@@ -55,39 +85,49 @@ otras tareas:</b></pre>
                 <li>Usar aplicaciones</li>
             </ul>
             <h2>Para ello son utilizadas las apps móviles:</h2>
-        
-            <p> <b>App nativa:</b><strong>La mayoría de las aplicaciones descargadas e instaladas en tu Smartphone son nativas.</br>
-            </strong>Son aquellas que descargas a través de las Stores de iOS y Android (Google Play y App Store). Aparecen </br>
+            <!--<strong> =  esta etiqueta es utilizada para definir un texto fuerte-->
+            <p> <b>App nativa:</b><strong>La mayoría de las aplicaciones descargadas e instaladas en tu Smartphone son nativas.<br>
+            </strong>Son aquellas que descargas a través de las Stores de iOS y Android (Google Play y App Store). Aparecen <br>
             con un icono en la pantalla del móvil y puedes acceder siempre a ellas. No necesitas conexión a Internet.
             </p>
-            <p><b>App web:</b><strong> webs adaptadas al móvil.</strong> No hablamos de diseño responsive.Las aplicaciones web </br>
-                son versiones de la web pensadas exclusivamente para la navegación móvil. Ofrecen controles sencillos e </br>
-                intuitivos.Van mucho más allá de mostrar un contenido estático. El acceso a las aplicaciones web es </br>
-                a través de  navegadores, por lo que es necesario que el dispositivo tenga acceso a Internet, ya que se aloja en </br>
+            <!--La etiqueta <br> funciona para dar un salto de linea en html-->
+            <p><b>App web:</b><strong> webs adaptadas al móvil.</strong> No hablamos de diseño responsive.Las aplicaciones web <br>
+                son versiones de la web pensadas exclusivamente para la navegación móvil. Ofrecen controles sencillos e <br>
+                intuitivos.Van mucho más allá de mostrar un contenido estático. El acceso a las aplicaciones web es <br>
+                a través de  navegadores, por lo que es necesario que el dispositivo tenga acceso a Internet, ya que se aloja en <br>
                 un servidor externo.
             </p>
-            <p>Estas aplicaciones no pueden encontrarse en las tiendas de apps, ni tienen iconos ni accesos directos en </br>
+            <!--<p> es una etiqueta utilizada para definir parrafos en html-->
+            <p>Estas aplicaciones no pueden encontrarse en las tiendas de apps, ni tienen iconos ni accesos directos en <br>
                  la pantalla o menú del Smartphone.
             </p>
 
-            <p><b>App Hibrida:</b><strong> comportamiento es el mismo que la app nativa. </strong>Se pueden descargar desde<br/>
-                las Stores de iOS y Android (App Store y Google Play respectivamente) y acceder a ellas a través <br/>
+            <p><b>App Hibrida:</b><strong> comportamiento es el mismo que la app nativa. </strong>Se pueden descargar desde<br>
+                las Stores de iOS y Android (App Store y Google Play respectivamente) y acceder a ellas a través <br>
                 de un icono. El acceso a Internet puede ser o no necesario en función de cómo sea el desarrollo apps móviles.
             </p>
             <h2>Web, híbrida o nativa</h2>
+            <!--la etiqueta table definira el comienzo de una tabla con el complemento style el cual segun su porcentaje definira el tamaño de 
+            la tabla-->
 
             <table style="width:50%">
+            <!--<caption> e suna etiqueta utilizada para dar un titulo a la tabla-->
+                <!--la etiqueta <em> es una etiqueta que pone enfasis a un texto o una palabra-->
                 <caption><em>Guia de desarrollo de apps</em></caption>
                 <!--1-->
+                <!--<tr> definira el numero de filas-->
                 <tr>
-                    <td rowspan="2"></th>
-                    <th colspan="3">Desarrollo</td>
+                    <!--<td> definira el numero de columnas-->
+                    <!--<rowspan> permitira fusionar columnas -->
+                    <td rowspan="2"> </td>
+                    <!--<colpan> permitira fusionar filas-->
+                    <th colspan="3">Desarrollo</th>
                 </tr>
                 <!--2-->
                 <tr>
-                    <th>Nativa</td>
-                    <th>Hibrida</td>
-                    <th>Web</td>
+                    <th>Nativa</th>
+                    <th>Hibrida</th>
+                    <th>Web</th>
                 </tr>
                 <!--3-->
                 <tr>
@@ -142,28 +182,27 @@ otras tareas:</b></pre>
             </table>
 <pre><b>Por lo que podemos decir que, si bien la importancia del celular móvil radica en la posibilidad de comunicarse, también es 
 utilizado para resolver asuntos a distancia; para ubicarse si se encuentran perdidos consultando un mapa en la web; 
-para utilizar aplicaciones necesarias frecuentemente, entre otras.
-                    
-<mark> Sin embargo a lo largo del tiempo esta va cambiando generando medios mas sofisticados y mas compatibles con los dispositivos 
+para utilizar aplicaciones necesarias frecuentemente, entre otras.</b>
+ <!--La etiqueta <mark> permitira resaltar un texto-->                   
+<mark><b>Sin embargo a lo largo del tiempo esta va cambiando generando medios mas sofisticados y mas compatibles con los dispositivos 
 móviles, asiendo así redes más complejas para el soporte de las mismas. </b></mark>
 </pre>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/tttMLnR_3_Q" frameborder="0"
+<!--<iframe> es una etiqueta utilizada para colocar videos en nustra pagina web la cual es complementada con width, height, src, allow 
+    los cuales modificaran la forma en la que se precente el video-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/tttMLnR_3_Q" 
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </article>
     
 
         
-        <p> Los siguientes enlaces darán a conocer dispositivos móviles utilizados actualmente, con la finalidad de recomendar algunas de <br/>
+        <p> Los siguientes enlaces darán a conocer dispositivos móviles utilizados actualmente, con la finalidad de recomendar algunas de <br>
             las opciones por si se desea adquirir alguno.</p>
-
-        <aside>
-
-        </aside>
        
     </section>
     <nav>
+        <h2>Celulares</h2>
         <ul>
-            <h1>Celulares</h1>
+            
             <li><a href="Iphone/iPhone11.html">iPhone 11 Pro Max</a></li>
             <li><a href="Samsung/SGalaxyS10.html">Samsung Galaxi s10 +</a> </li>
             <li><a href="Asus/Rphone2.html">Rog Phone 2</a></li>
@@ -173,13 +212,16 @@ móviles, asiendo así redes más complejas para el soporte de las mismas. </b><
 
     </nav>
 
-
+<!--La etiqueta <footer> nos permitira agregar un pie de pagina-->
     <footer>
+        <!--<hr> es una etiqueta que no permitira generar una linea recta como una regleta en nuestra pagina web-->
         <hr/>
         <p>Christian Geovanny Rivera Loja</p>
         <p>Universidad Politécnica Salesiana</p>
+        <!--&nbsp; es codigo que nos permitira obtener un espacio en blanco en html-->
         <p>mail:&nbsp;<a href="mailto:criveral2@est.ups.edu.ec" >criveral2@est.ups.edu.ec</a></p>
         <p>telefono:&nbsp;<a href="tel:0991748263">0991748263</a></p>
+        <!--&#169; este codigo permitira generar el simbolo de copyright -->
         <pre>      &#169;Todos los derechos reservados</pre>
     </footer>
 
