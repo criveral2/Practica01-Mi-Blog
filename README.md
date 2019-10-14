@@ -121,6 +121,7 @@ Pagina
 6.	Se debe incluir la información de GitHub (usuario y URL del repositorio de la práctica)
 Usuario: criveral2
 Repositorio Practica01-Mi-Blog: https://github.com/criveral2/Practica01-Mi-Blog.git
+Repositorio Curbside-Thai-master: https://github.com/criveral2/Curbside-Thai-master.git 
 
 <pre>RESULTADO(S) OBTENIDO(S):
 La implementación de html5 en la práctica nos ayudó a entender mejor la estructura, sus componentes y herramientas de los sitios web, además de su modelo de negocio en internet. 
