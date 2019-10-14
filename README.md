@@ -13,10 +13,12 @@ El desarrollo de la práctica nos permitió entender y organizar de una mejor ma
                                                     ACTIVIDADES DESARROLLADAS
 1.	Crear un repositorio en GitHub con el nombre “Practica01 – Mi Blog”
 Procedemos a crear un repositorio en la herramienta online de Github, esta nos permitirá hacer un seguimiento sobre el proceso del desarrollo de las páginas web.
+![1](https://user-images.githubusercontent.com/52549697/66730783-5b029600-ee19-11e9-9e28-630acca5c88d.JPG)
  
 2.	Realizar un commit y push por cada requerimiento de los puntos antes descritos.
 Una vez creado ya el repositorio en nuestra cuenta de GitHub y si es el caso también en nuestra maquina física procedemos a realizar los respectivos commits para así generar un histórico de nuestras modificaciones. 
 GitHub
+![2](https://user-images.githubusercontent.com/52549697/66731296-41168280-ee1c-11e9-911f-d4d7086b4eab.JPG)
  
 Pc git
  
