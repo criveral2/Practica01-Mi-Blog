@@ -11,3 +11,4 @@ El desarrollo de la práctica nos permitió entender y organizar de una mejor ma
 
 
 https://github.com/criveral2/Practica01-Mi-Blog/issues/1#issue-506453324
+![2](https://user-images.githubusercontent.com/52549697/66731296-41168280-ee1c-11e9-911f-d4d7086b4eab.JPG)
