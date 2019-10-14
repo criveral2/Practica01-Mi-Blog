@@ -88,8 +88,8 @@ Creación de SGalaxyS10: Precederemos a crear la página SGalaxyS10
  
 ![6](https://user-images.githubusercontent.com/52549697/66732603-38c14600-ee22-11e9-8c85-73d9e0e297f6.JPG)
 ![7](https://user-images.githubusercontent.com/52549697/66732604-38c14600-ee22-11e9-97b6-b442f8072f88.JPG)
- 
- -----------------------------falta-----------
+![falta](https://user-images.githubusercontent.com/52549697/66732953-7d99ac80-ee23-11e9-9c00-f473e447a761.JPG)
+
 
 Pagina
 
